@@ -20,13 +20,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
       uses: actions/checkout@v2
-    
-    - name: Change PWD
-      uses: cd toolbox
-      
+        
     - name: Build
-      uses: npm run build
-      
+      run: npm run build
+      working-directory: toolbox
+            
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.6.4
       with:
@@ -37,4 +35,4 @@ jobs:
         # Set a personal access token for pushing to the remote branch.
         # personal_token: # optional
         # Set an input directory for deployment.
-        publish_dir: build
+        publish_dir: toolbox/build

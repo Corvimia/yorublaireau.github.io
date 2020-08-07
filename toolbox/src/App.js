@@ -1,11 +1,11 @@
 import React from "react";
-import  {BrowserRouter, Route, Switch,Redirect} from "react-router-dom";
+import  {HashRouter, Route, Switch, Redirect} from "react-router-dom";
 import Sidebar from "./components/sidebar/sidebar";
 import {ROUTES} from "./constants";
 
 export default () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Sidebar/>
 
             <div id="content">
@@ -21,6 +21,6 @@ export default () => {
                     <Redirect to="/" />
                 </Switch>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }

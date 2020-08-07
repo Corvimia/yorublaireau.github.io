@@ -19,21 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73fb554b-b2be-4c44-b6be-3d53256cf266" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toolbox/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/toolbox/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596827659639</updated>
-      <workItem from="1596827661057" duration="4851000" />
+      <workItem from="1596827661057" duration="4963000" />
     </task>
     <task id="LOCAL-00001" summary="scaffold the app">
       <created>1596828911041</created>
@@ -132,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596830073733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Start having some fun">
+      <created>1596832602025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596832602025</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -166,36 +167,37 @@
     <MESSAGE value="Add some config files" />
     <MESSAGE value="Delete unused file" />
     <MESSAGE value="Add bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap" />
+    <MESSAGE value="Start having some fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start having some fun" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1596830887145">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1596832596579">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596830887145" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1596830887145">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832596579" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1596832596579">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596830887145" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1596830887145">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832596579" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1596832596578">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596830887145" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1596830887145">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832596578" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1596832596579">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596830887145" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596829243848">
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832596579" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1596832611269">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596829243848" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832611269" />
     <state x="792" y="259" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596830010758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="792" y="259" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596830010758" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1596832565535">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1596832632159">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832565535" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.348.1920.1050@0.0.1920.1050" timestamp="1596832632159" />
   </component>
 </project>

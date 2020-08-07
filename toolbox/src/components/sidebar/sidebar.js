@@ -12,7 +12,7 @@ export default () => (
 
         <ul className="list-unstyled components">
             {Object.keys(ROUTES).map(route => (
-                <li className="nav-item">
+                <li className="nav-item" key={route}>
                     <Link to={route} className="nav-link">{ROUTES[route].title}</Link>
                 </li>
             ))}

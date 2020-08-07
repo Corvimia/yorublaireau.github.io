@@ -13,7 +13,7 @@ export default () => {
                     {Object.keys(ROUTES).map(route => {
                         const Component = ROUTES[route].component;
                         return (
-                            <Route exact path={route}>
+                            <Route exact path={route} key={route}>
                                 <Component/>
                             </Route>
                         )

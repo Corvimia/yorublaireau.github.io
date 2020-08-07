@@ -1,4 +1,4 @@
-import PoliticalCompass from "./pages/generators/political-compass/political-compass";
+// import PoliticalCompass from "./pages/generators/political-compass/political-compass";
 import Home from "./pages/home/home";
 
 const ROUTES = {
